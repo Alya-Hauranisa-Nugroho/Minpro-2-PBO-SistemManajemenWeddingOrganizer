@@ -10,13 +10,13 @@
 
 ## 📌 Deskripsi Program
 
-Sistem Manajemen Wedding Organizer merupakan program berbasis bahasa pemrograman Java yang digunakan untuk mengelola data pada usaha Wedding Organizer **"Houry Do Wedds"** secara sederhana.
+Sistem Manajemen Wedding Organizer merupakan program berbasis bahasa pemrograman Java yang digunakan untuk mengelola data pada usaha Wedding Organizer "Houry Do Wedds" secara sederhana.
 
-Program ini merupakan pengembangan dari project sebelumnya dengan menambahkan penerapan konsep **Inheritance** dalam pengelolaan data vendor. Program memiliki beberapa fitur CRUD (*Create, Read, Update, Delete*) untuk mengelola data pelanggan, paket wedding, pemesanan wedding, serta vendor.
+Program ini merupakan pengembangan dari project sebelumnya dengan menambahkan penerapan konsep Inheritance dalam pengelolaan data vendor. Program memiliki beberapa fitur CRUD (*Create, Read, Update, Delete*) untuk mengelola data pelanggan, paket wedding, pemesanan wedding, serta vendor.
 
 ---
 
-## 📂 Struktur Class
+## 📂 Struktur MVC dan Class
 
 Program Sistem Manajemen Wedding Organizer terdiri dari beberapa class dengan fungsi yang berbeda, yaitu:
 
@@ -138,44 +138,20 @@ Class ini digunakan pada beberapa bagian program, seperti input harga paket, har
 
 ---
 
-## 🌳 Hierarki Class
+## ⭐ Penerapan Encapsulation
 
-Penerapan inheritance pada program dapat digambarkan secara sederhana sebagai berikut:
+Pada program ini, saya menerapkan konsep encapsulation dengan menyembunyikan atribut menggunakan access modifier private dan menyediakan getter serta setter untuk mengakses atau mengubah data tertentu.
 
-```text
-                    Vendor
-                      │
-             ┌────────┴────────┐
-             │                 │
-      VendorCatering     VendorDekorasi
-```
+Sebagai contoh, pada class Pelanggan terdapat penerapan method getter dan setter:
 
-Class `Vendor` berperan sebagai **superclass**, sedangkan `VendorCatering` dan `VendorDekorasi` berperan sebagai **subclass**.
+<img width="453" height="517" alt="image" src="https://github.com/user-attachments/assets/273dd8bf-606c-4172-ba3c-2a3f09745a7a" />
 
-Selain hubungan inheritance tersebut, class lain pada program digunakan untuk mendukung proses pengelolaan data:
 
-```text
-ManajemenWeddingOrganizer
-│
-├── com.mycompany.weddingorganizer
-│   └── WeddingOrganizer.java
-│
-├── model
-│   ├── PaketWedding.java
-│   ├── Pelanggan.java
-│   ├── PemesananWedding.java
-│   ├── Vendor.java
-│   ├── VendorCatering.java
-│   └── VendorDekorasi.java
-│
-└── service
-    ├── InputValidator.java
-    └── WeddingCRUD.java
-```
+Getter digunakan untuk mengambil nilai dari atribut, sedangkan setter digunakan untuk mengubah nilai atribut. Sehingga akses terhadap data dalam object dilakukan melalui method yang telah disediakan oleh class, sehingga data tidak diakses secara langsung dari luar class.
 
 ---
 
-## 💭 Penerapan Inheritance
+## ⭐ Penerapan Inheritance
 
 Konsep inheritance diterapkan dengan menjadikan `Vendor` sebagai superclass dari `VendorCatering` dan `VendorDekorasi`.
 
@@ -212,10 +188,13 @@ Implementasi inheritance pada kode saya adalah sebagai berikut:
 
 Inheritance diterapkan pada `VendorCatering` dan `VendorDekorasi` yang merupakan subclass dari `Vendor` menggunakan keyword `extends`. Class `Vendor` sebagai superclass menyimpan atribut umum seperti `idVendor`, `namaVendor`, dan `noTelepon`, sedangkan kedua subclass menambahkan atribut khusus sesuai jenis vendornya. Pada constructor digunakan `super()` untuk menginisialisasi atribut yang diwarisi dari `Vendor`. Dengan inheritance, kode menjadi lebih sederhana karena atribut dan method yang sama tidak perlu ditulis ulang pada setiap subclass.
 
+---
+
+## ⭐ Penerapan Polymorphism, sebagai nilai tambah
 
 ---
 
-## 🔄 Dokumentasi dan Alur Program
+## 📸 Dokumentasi dan Alur Program
 
 Secara umum, alur program dimulai ketika pengguna menjalankan program selanjutnya dan akan diarahkan ke menu utama yang terdiri dari menu Tambah, Tampilkan, Update, Hapus, dan Keluar. Pengguna dapat memilih menu sesuai kebutuhan, kemudian memilih data yang ingin dikelola, yaitu data pelanggan, paket wedding, atau pemesanan wedding. 
 
@@ -431,3 +410,28 @@ Apabila telah menyelesaikan proses hapus, pengguna dapat memilih menu **“4”*
 
 
 Apabila pengguna telah selesai melakukan pengelolaan data, pengguna dapat memilih menu “5” pada menu utama untuk mengakhiri program. Setelah pengguna memilih menu tersebut, program akan menampilkan pesan “BYEEEE!!” sebagai tanda bahwa program telah selesai dijalankan.
+
+---
+
+## Penerapan Nilai Tambah pada Program
+
+Program ini memiliki penerapan nilai tambah, yaitu sebagai berikut:
+
+### **1. Access Modifier**
+Pada program ini, saya menerapkan access modifier private pada atribut yang terdapat di dalam class data, seperti Pelanggan, PaketWedding, dan PemesananWedding. Penggunaan private membuat atribut tersebut hanya dapat diakses secara langsung dari dalam class tempat atribut tersebut didefinisikan.
+
+Contohnya terdapat pada baris kode di class Pelanggan, yaitu:
+
+<img width="361" height="118" alt="image" src="https://github.com/user-attachments/assets/752974b1-c388-4f47-bed3-eb56448a9b13" />
+
+Penggunaan access modifier pada gambar di atas menunjukkan bahwa data pada setiap object tidak dapat diakses atau diubah secara langsung dari luar class.
+
+### **2. Access Modifier**
+Pada program ini, saya menerapkan konsep encapsulation dengan menyembunyikan atribut menggunakan access modifier private dan menyediakan getter serta setter untuk mengakses atau mengubah data tertentu.
+
+Sebagai contoh, pada class Pelanggan terdapat penerapan method getter dan setter:
+
+<img width="453" height="517" alt="image" src="https://github.com/user-attachments/assets/273dd8bf-606c-4172-ba3c-2a3f09745a7a" />
+
+
+Getter digunakan untuk mengambil nilai dari atribut, sedangkan setter digunakan untuk mengubah nilai atribut. Sehingga akses terhadap data dalam object dilakukan melalui method yang telah disediakan oleh class, sehingga data tidak diakses secara langsung dari luar class.
