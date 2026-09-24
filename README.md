@@ -16,7 +16,9 @@ Program ini dibuat dengan menerapkan konsep Object Oriented Programming atau OOP
 
 ---
 
-## Struktur MVC dan Class
+## Struktur Package, Class, dan MVC sebagai Nilai Tambah
+
+<img width="503" height="464" alt="image" src="https://github.com/user-attachments/assets/8c88af55-4520-4904-95b4-7084dd271c73" />
 
 Program Sistem Manajemen Wedding Organizer, setiap class disusun dalam beberapa package yang menerapkan struktur MVC, yaitu _Model_, _Controller_, dan _View_ yang saya terapkan untuk nilai tambah. Setiap package memiliki fungsi dan class masing masing, diantaranya: terdiri dari beberapa class dengan fungsi yang berbeda, yaitu:
 
@@ -163,6 +165,18 @@ Sebagai contoh, pada class Pelanggan terdapat penerapan method getter dan setter
 
 Getter digunakan untuk mengambil nilai dari atribut, sedangkan setter digunakan untuk mengubah nilai atribut. Sehingga akses terhadap data dalam object dilakukan melalui method yang telah disediakan oleh class, sehingga data tidak diakses secara langsung dari luar class.
 
+Pada program ini, saya menerapkan konsep encapsulation dengan menyembunyikan atribut menggunakan access modifier private, lalu menyediakan method getter dan setter sebagai jalur akses untuk membaca atau mengubah data. Konsep encapsulation saya terapkan pada seluruh class data pada model. Hal ini bertujuan agar data dalam object tidak dapat diakses atau diubah secara langsung dari luar class.
+
+Sebagai contoh, pada class PaketWedding terdapat beberapa method berikut:
+
+<img width="443" height="306" alt="image" src="https://github.com/user-attachments/assets/0ec01a73-2fc4-4af3-9a07-988e424a7045" />
+
+Pada gambar di atas digunakan method getter, yaitu getIdPaket(), getNamaPaket(), dan getHarga(), digunakan untuk mengambil nilai atribut idPaket, namaPaket, dan harga.
+
+<img width="987" height="202" alt="image" src="https://github.com/user-attachments/assets/5fb83b6b-fe46-4c61-893e-11f28170b762" />
+
+Selain menerapkan getter, saya juga menerapkan method setter yaitu setHarga() yang digunakan untuk mengubah nilai atribut harga. Pada method setHarga(), saya juga menambahkan validasi data jika nilai harga yang dimasukkan kurang dari atau sama dengan 0, maka akan menampilkan pesan seperti pada gambar di atas.
+
 ---
 
 ## Penerapan Inheritance
@@ -204,7 +218,7 @@ Inheritance diterapkan pada `VendorCatering` dan `VendorDekorasi` yang merupakan
 
 ---
 
-## Penerapan Polymorphism, sebagai nilai tambah
+## Penerapan Polymorphism, sebagai Nilai Tambah
 
 ---
 
