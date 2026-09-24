@@ -219,17 +219,16 @@ Apabila pengguna telah menyelesaikan proses CRUD yang dipilih dan memilih menu �
 ---
 
 ### Menu Utama
-<img width="472" height="341" alt="image" src="https://github.com/user-attachments/assets/e2ec58d7-0361-4558-8b5e-46fbd85224e4" />
 
-<img width="470" height="326" alt="image" src="https://github.com/user-attachments/assets/4e3910f0-7e09-477f-a1a5-c9cb82d8c35a" />
+<img width="469" height="343" alt="image" src="https://github.com/user-attachments/assets/f6555eb4-c5d0-4b76-98fc-6c57ecea81c4" />
 
-Pada gambar di atas, saya menampilkan menu utama dari program yang telah dirancang. Terdapat 5 menu utama yang dapat dipilih, yaitu menu untuk menambahkan data, menampilkan data, menghapus data, mengupdate data, serta menu untuk keluar dari program. Pengguna akan diminta untuk memilih salah satu dari kelima menu tersebut.
+Pada gambar di atas, ditampilkan menu utama dari program Sistem Manajemen Wedding Organizer. Terdapat 5 menu utama yang dapat dipilih, yaitu menu untuk menambahkan data, menampilkan data, menghapus data, mengupdate data, serta menu untuk keluar dari program. Pengguna akan diminta untuk memilih salah satu dari kelima menu tersebut.
 
 ---
 
 ### 1. Menu Tambah
 
-<img width="480" height="276" alt="image" src="https://github.com/user-attachments/assets/e853f97f-933b-4c7f-8ce2-3ea249087249" />
+<img width="476" height="248" alt="image" src="https://github.com/user-attachments/assets/9cc63606-3804-4402-bb8e-315ea4b4f1a3" />
 
 Ketika pengguna memilih “1” pada menu utama, pengguna akan masuk ke dalam Menu Tambah, di mana menu ini memungkinkan pengguna untuk memasukkan data baru pada data pelanggan, paket wedding, maupun pemesanan wedding. Pengguna dapat memilih salah satu jenis data yang ingin ditambahkan sesuai dengan kebutuhan. Pada tampilan tersebut, saya memilih menu “1", "yaitu Tambah Pelanggan”, sehingga program akan melanjutkan ke proses untuk memasukkan data pelanggan.
 
@@ -237,8 +236,7 @@ Ketika pengguna memilih “1” pada menu utama, pengguna akan masuk ke dalam Me
 
 * **Tambah Pelanggan**
 
-<img width="564" height="432" alt="image" src="https://github.com/user-attachments/assets/9373d943-2d1f-46c4-ac4e-0d91518e7241" />
-
+<img width="652" height="490" alt="image" src="https://github.com/user-attachments/assets/13fe427f-c92f-4c1d-9636-2b30e41cdf68" />
 
 Selanjutnya, program akan menampilkan tempat untuk memasukkan data pelanggan. Pengguna diminta memasukkan ID Pelanggan, Nama Pelanggan, dan No HP. Setelah seluruh data berhasil dimasukkan, program menampilkan pesan bahwa data pelanggan berhasil ditambahkan, kemudian kembali menampilkan Menu Tambah agar pengguna dapat melanjutkan proses penambahan data lainnya.
 
@@ -246,13 +244,14 @@ Berikut merupakan proses penambahan data lainnya:
 
 * **Tambah Paket Wedding**
 
-<img width="542" height="224" alt="image" src="https://github.com/user-attachments/assets/147a4c5b-e140-4a0b-9fff-0c76b142049d" />
+<img width="648" height="232" alt="image" src="https://github.com/user-attachments/assets/82385aae-f5c2-4f6f-b81d-499c1bf0b9b4" />
 
 * **Tambah Pemesanan Wedding**
 
-<img width="463" height="362" alt="image" src="https://github.com/user-attachments/assets/2cc31b67-7149-4bb5-a765-a501251e9c0d" />
+<img width="472" height="574" alt="image" src="https://github.com/user-attachments/assets/03bda7f1-3ce7-4006-b3f8-0ce4747e2179" />
 
-<img width="706" height="876" alt="image" src="https://github.com/user-attachments/assets/65cdc62c-9d67-49fe-b4c7-614ca256c260" />
+<img width="797" height="871" alt="image" src="https://github.com/user-attachments/assets/0989a8b0-11ab-4780-8a1e-71882967112e" />
+
 
 * **Tambah Vendor**
 
