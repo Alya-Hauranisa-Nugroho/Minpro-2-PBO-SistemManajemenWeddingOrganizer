@@ -156,14 +156,7 @@ Class ini digunakan untuk menampilkan pesan kepada pengguna, seperti pesan berha
 
 ## Penerapan Encapsulation
 
-Pada program ini, saya menerapkan konsep encapsulation dengan menyembunyikan atribut menggunakan access modifier private dan menyediakan getter serta setter untuk mengakses atau mengubah data tertentu.
-
-Sebagai contoh, pada class Pelanggan terdapat penerapan method getter dan setter:
-
-<img width="453" height="517" alt="image" src="https://github.com/user-attachments/assets/273dd8bf-606c-4172-ba3c-2a3f09745a7a" />
-
-
-Getter digunakan untuk mengambil nilai dari atribut, sedangkan setter digunakan untuk mengubah nilai atribut. Sehingga akses terhadap data dalam object dilakukan melalui method yang telah disediakan oleh class, sehingga data tidak diakses secara langsung dari luar class.
+<img width="476" height="129" alt="image" src="https://github.com/user-attachments/assets/20a36d1b-129c-4073-b2fb-5937629edaf9" />
 
 Pada program ini, saya menerapkan konsep encapsulation dengan menyembunyikan atribut menggunakan access modifier private, lalu menyediakan method getter dan setter sebagai jalur akses untuk membaca atau mengubah data. Konsep encapsulation saya terapkan pada seluruh class data pada model. Hal ini bertujuan agar data dalam object tidak dapat diakses atau diubah secara langsung dari luar class.
 
@@ -181,40 +174,20 @@ Selain menerapkan getter, saya juga menerapkan method setter yaitu setHarga() ya
 
 ## Penerapan Inheritance
 
-Konsep inheritance diterapkan dengan menjadikan `Vendor` sebagai superclass dari `VendorCatering` dan `VendorDekorasi`.
+Pada program ini, saya menerapkan konsep inheritence dengan menjadikan class Vendor sebagai superclass atau class induk dari subclass VendorCatering dan VendorDekorasi.
 
-Atribut yang bersifat umum seperti ID vendor, nama vendor, dan nomor telepon ditempatkan pada superclass `Vendor`. Kemudian kedua subclass mewarisi atribut dan method tersebut serta menambahkan atribut yang sesuai dengan kebutuhan masing-masing jenis vendor.
+Atribut yang bersifat umum seperti ID vendor, nama vendor, dan nomor telepon ditempatkan pada superclass Vendor. Kedua subclass kemudian mewarisi atribut dan method tersebut serta menambahkan atribut khusus sesuai dengan jenis vendornya.
 
-Secara konsep:
+Penerapan inheritance bertujuan agar atribut dan method yang sama tidak perlu ditulis kembali pada masing-masing subclass, sehingga dapat digunakan untuk efisiensi. Penerapan inheritence pada class VendorCatering dan VendorDekorasi digunakan untuk mengelola data vendor berdasarkan jenisnya.
 
-```text
-Vendor
-├── idVendor
-├── namaVendor
-└── noTelepon
-        │
-        ├── VendorCatering
-        │   ├── jenisMasakan
-        │   ├── sistemPenyajian
-        │   └── hargaPerPax
-        │
-        └── VendorDekorasi
-            ├── temaDekorasi
-            ├── jenisDekorasi
-            └── hargaPaketDekorasi
-```
+Implementasi inheritance pada kode dapat dilihat pada gambar berikut:
 
-Penerapan ini membuat informasi yang sama pada setiap vendor tidak perlu dibuat kembali pada masing-masing subclass.
+<img width="1724" height="314" alt="image" src="https://github.com/user-attachments/assets/85a24a50-5dfd-4c35-adc2-778cbe1aa6f6" />
 
-Pada `WeddingCRUD`, kedua subclass kemudian digunakan untuk menyimpan data vendor sesuai dengan jenisnya. Program menyediakan pilihan vendor catering atau vendor dekorasi ketika pengguna ingin mengelola data vendor.
+<img width="1188" height="344" alt="image" src="https://github.com/user-attachments/assets/ceabd1a2-747c-4f69-8e75-87b569fb2702" />
 
-Implementasi inheritance pada kode saya adalah sebagai berikut:
 
-<img width="1231" height="338" alt="image" src="https://github.com/user-attachments/assets/78efd2d3-e143-46fd-a96e-6b600977e5c9" />
-
-<img width="1241" height="341" alt="image" src="https://github.com/user-attachments/assets/671d9545-d431-4a7e-8fc5-c69937696114" />
-
-Inheritance diterapkan pada `VendorCatering` dan `VendorDekorasi` yang merupakan subclass dari `Vendor` menggunakan keyword `extends`. Class `Vendor` sebagai superclass menyimpan atribut umum seperti `idVendor`, `namaVendor`, dan `noTelepon`, sedangkan kedua subclass menambahkan atribut khusus sesuai jenis vendornya. Pada constructor digunakan `super()` untuk menginisialisasi atribut yang diwarisi dari `Vendor`. Dengan inheritance, kode menjadi lebih sederhana karena atribut dan method yang sama tidak perlu ditulis ulang pada setiap subclass.
+Pada gambar di atas, diketahui bahwa konsep inheritance diterapkan pada VendorCatering dan VendorDekorasi yang merupakan subclass dari Vendor menggunakan keyword extends. Class Vendor sebagai superclass menyimpan atribut umum, sedangkan kedua subclass menambahkan atribut khusus sesuai dengan jenis vendor. Keyword super() juga digunakan untuk untuk menginisialisasi atribut yang diwarisi dari Vendor. Pada jenis vendor catering, terdapat atribut tambahan seperti jenisMasakan, sistemPenyajian, dan hargaPerPax. Sementara pada jenis vendor dekorasi, terdpat atribut tambahan seperti temaDekorasi, jenisDekorasi, dan hargaPaketDekorasi. Pada constructor digunakan super() untuk menginisialisasi atribut yang diwarisi dari Vendor.
 
 ---
 
