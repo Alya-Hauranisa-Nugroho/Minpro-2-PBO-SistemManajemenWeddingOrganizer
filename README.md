@@ -210,7 +210,7 @@ Pada method tampilkanInfo(), overriding digunakan karena informasi yang perlu di
 
 ---
 
-## ðŸ“¸ Dokumentasi dan Alur Program
+## Dokumentasi dan Alur Program
 
 Secara umum, alur program dimulai ketika pengguna menjalankan program selanjutnya dan akan diarahkan ke menu utama yang terdiri dari menu Tambah, Tampilkan, Update, Hapus, dan Keluar. Pengguna dapat memilih menu sesuai kebutuhan, kemudian memilih data yang ingin dikelola, yaitu data pelanggan, paket wedding, pemesanan wedding, maupun vendor. 
 
@@ -218,7 +218,7 @@ Apabila pengguna telah menyelesaikan proses CRUD yang dipilih dan memilih menu â
 
 ---
 
-### **Menu Utama**
+### Menu Utama
 <img width="472" height="341" alt="image" src="https://github.com/user-attachments/assets/e2ec58d7-0361-4558-8b5e-46fbd85224e4" />
 
 <img width="470" height="326" alt="image" src="https://github.com/user-attachments/assets/4e3910f0-7e09-477f-a1a5-c9cb82d8c35a" />
@@ -227,7 +227,7 @@ Pada gambar di atas, saya menampilkan menu utama dari program yang telah diranca
 
 ---
 
-### **1. Menu Tambah**
+#### 1. Menu Tambah
 
 <img width="480" height="276" alt="image" src="https://github.com/user-attachments/assets/e853f97f-933b-4c7f-8ce2-3ea249087249" />
 
@@ -289,7 +289,7 @@ Apabila telah menyelesaikan proses tambah, pengguna dapat memilih menu "5" untuk
 
 ---
 
-### **2. Menu Tampilkan**
+#### 2. Menu Tampilkan
 
 <img width="494" height="277" alt="image" src="https://github.com/user-attachments/assets/8465ea91-3a02-4785-b3bc-7a4d0b4752a2" />
 
