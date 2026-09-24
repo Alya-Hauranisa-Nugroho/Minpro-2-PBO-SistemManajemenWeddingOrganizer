@@ -252,37 +252,23 @@ Berikut merupakan proses penambahan data lainnya:
 
 <img width="797" height="871" alt="image" src="https://github.com/user-attachments/assets/0989a8b0-11ab-4780-8a1e-71882967112e" />
 
-
 * **Tambah Vendor**
 
-<img width="499" height="225" alt="image" src="https://github.com/user-attachments/assets/57d63793-853a-4266-85d7-6c20d8071518" />
-
+<img width="471" height="220" alt="image" src="https://github.com/user-attachments/assets/9e231808-40c2-46a5-9fb7-c2a6f44c5fe6" />
 
 Pada menu Tambah Vendor, pengguna terlebih dahulu memilih jenis vendor yang ingin ditambahkan.
 
-<img width="577" height="223" alt="image" src="https://github.com/user-attachments/assets/7798d385-ad96-4c9e-a16e-5cbaa495dfa5" />
+<img width="674" height="227" alt="image" src="https://github.com/user-attachments/assets/94ded310-d2b0-4295-a632-f67653933790" />
 
 Jika memilih vendor catering, pengguna memasukkan data umum vendor serta data khusus catering seperti jenis masakan, sistem penyajian, dan harga per pax.
 
-<img width="584" height="226" alt="image" src="https://github.com/user-attachments/assets/5740952d-53fc-4553-a5f4-80f2eea02f78" />
-
+<img width="668" height="221" alt="image" src="https://github.com/user-attachments/assets/1db7c2b2-4e77-41c1-a017-c2aa20f9d827" />
 
 Jika memilih vendor dekorasi, pengguna memasukkan data umum vendor serta data khusus dekorasi seperti tema dekorasi, jenis dekorasi, dan harga paket dekorasi.
 
----
-
-Berdasarkan gambar di atas, diketahui bahwa pengguna dapat menambahkan:
-
-* **Pelanggan**, dengan memasukkan ID, nama, dan nomor HP.
-* **Paket Wedding**, dengan memasukkan ID, nama paket, dan harga.
-* **Pemesanan Wedding**, dengan memilih pelanggan dan paket wedding yang sudah tersedia, kemudian memasukkan venue, tanggal acara, dan jumlah pax.
-* **Vendor**, dengan memilih jenis vendornya terlebih dahulu, yaitu vendor catering atau vendor dekorasi, kemudian mengisi data vedor yang dibutuhkan sesuai jenisnya.
-
-
 * **Kembali ke Menu Utama**
 
-<img width="489" height="599" alt="image" src="https://github.com/user-attachments/assets/f27b7b1f-a20a-4f94-8b22-d1bfe9b17b4f" />
-
+<img width="474" height="630" alt="image" src="https://github.com/user-attachments/assets/771162d4-f782-4354-a346-5e72c7cef961" />
 
 Apabila telah menyelesaikan proses tambah, pengguna dapat memilih menu "5" untuk keluar dari menu tambah dan kembali ke menu utama.
 
@@ -290,7 +276,8 @@ Apabila telah menyelesaikan proses tambah, pengguna dapat memilih menu "5" untuk
 
 ### 2. Menu Tampilkan
 
-<img width="494" height="277" alt="image" src="https://github.com/user-attachments/assets/8465ea91-3a02-4785-b3bc-7a4d0b4752a2" />
+<img width="468" height="248" alt="image" src="https://github.com/user-attachments/assets/9e9402ab-23ce-4d10-abc9-e8e0e652b806" />
+
 
 Ketika pengguna memilih “2” pada menu utama, pengguna akan masuk ke dalam Menu Tampilkan, di mana menu ini memungkinkan pengguna untuk melihat data yang sudah ada pada data pelanggan, paket wedding, maupun pemesanan wedding. 
 
@@ -300,26 +287,42 @@ Berikut merupakan tampilan untuk Menu Tampilkan di setiap data:
 
 * **Tampilkan Pelanggan**
 
-<img width="466" height="213" alt="image" src="https://github.com/user-attachments/assets/6a5c670e-ce87-42a5-818e-132a04b48806" />
+<img width="470" height="338" alt="image" src="https://github.com/user-attachments/assets/6801f89b-bbc0-46aa-b1d8-58b1c8379c7c" />
+
 
 * **Tampilkan Paket Wedding**
 
-<img width="480" height="756" alt="image" src="https://github.com/user-attachments/assets/b9631b23-686c-4740-ac43-4ce9df8fe1f5" />
+<img width="492" height="670" alt="image" src="https://github.com/user-attachments/assets/567103d8-74d2-4e78-9546-d17188a7679f" />
+
 
 * **Tampilkan Pemesanan Wedding**
 
-<img width="469" height="293" alt="image" src="https://github.com/user-attachments/assets/84801c1a-3880-4d73-8a4c-4f80163d660b" />
+<img width="473" height="306" alt="image" src="https://github.com/user-attachments/assets/6b40f314-e123-4a53-bc8c-96804ce09528" />
+
 
 * **Tampilkan Vendor**
 
-<img width="484" height="673" alt="image" src="https://github.com/user-attachments/assets/0d1cd904-85e5-44c5-94ca-e15704dd7eaf" />
+<img width="473" height="224" alt="image" src="https://github.com/user-attachments/assets/53f50f51-081b-4b12-9963-76cd62d7b0b5" />
 
-<img width="496" height="675" alt="image" src="https://github.com/user-attachments/assets/f424a544-0dff-488d-b3a5-ed13d9fe5283" />
+Pada menu Tampilkan Vendor, pengguna diminta untuk memilih vendor apa yang ingin dilihat. Pada gambar di atas, diketahui bahwa pengguna dapat melihat semua vendor, vendor catering saja, dan vendor dekorasi saja. Output dari masing masing menu tampilkan adalah sebagai berikut:
+
+1. Tampilkan Semua Vendor
+
+<img width="474" height="907" alt="image" src="https://github.com/user-attachments/assets/655b5659-f397-4eef-a4b5-a854d6bbd7bc" />
+
+3. Tampilkan Vendor Catering
+
+<img width="461" height="469" alt="image" src="https://github.com/user-attachments/assets/a204b304-7029-4d04-9002-9e115b5e8762" />
+
+4. Tampilkan Vendor Dekorasi
+
+<img width="477" height="692" alt="image" src="https://github.com/user-attachments/assets/0e7334eb-97cc-497f-9f87-10db3eca7fec" />
 
 
 * **Kembali ke Menu Utama**
 
-<img width="496" height="601" alt="image" src="https://github.com/user-attachments/assets/23cc5658-367b-465a-8c3b-f3eecff24ff5" />
+<img width="470" height="628" alt="image" src="https://github.com/user-attachments/assets/92d959b4-05c8-4713-b8ec-6f5515fffb3c" />
+
 
 Pengguna dapat memilih menu "5" untuk keluar dari menu tampilkan dan kembali ke menu utama.
 
