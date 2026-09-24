@@ -329,9 +329,9 @@ Apabila telah menyelesaikan proses _read_, pengguna dapat memilih menu "5" untuk
 
 ### 3. Menu Update
 
-Ketika pengguna memilih “3” pada menu utama, pengguna akan masuk ke dalam Menu Update. Menu ini digunakan untuk mengubah data yang sudah tersimpan pada program. Pengguna dapat memilih data yang ingin diperbarui, yaitu data pelanggan, paket wedding, maupun pemesanan wedding.
+<img width="468" height="248" alt="image" src="https://github.com/user-attachments/assets/72832003-3173-4091-987e-15311ed57433" />
 
-<img width="474" height="272" alt="image" src="https://github.com/user-attachments/assets/e5ee7df4-c3f9-4954-bc1b-7c54b1cf398f" />
+Ketika pengguna memilih “3” pada menu utama, pengguna akan masuk ke dalam Menu Update. Menu ini digunakan untuk mengubah data yang sudah tersimpan pada program. Pengguna dapat memilih data yang ingin diperbarui, yaitu data pelanggan, paket wedding, maupun pemesanan wedding.
 
 Pada Menu Update, pengguna dapat memilih salah satu dari 4 jenis data yang tersedia untuk diperbarui. Setelah memilih jenis data, pengguna akan diminta memasukkan ID dari data yang ingin diubah. Program kemudian akan mencari data berdasarkan ID tersebut. Apabila data ditemukan, pengguna dapat memasukkan informasi baru sesuai dengan atribut yang dapat diperbarui.
 
@@ -341,43 +341,43 @@ Berikut merupakan proses update pada setiap data:
 
 * **Update Pelanggan**
 
-<img width="531" height="225" alt="image" src="https://github.com/user-attachments/assets/a087e433-8374-4fee-a40a-12dba07a002d" />
+<img width="641" height="532" alt="image" src="https://github.com/user-attachments/assets/0323c0bf-ee21-450e-a90e-54a7e1d09d09" />
 
-
-Pada proses Update Pelanggan, pengguna diminta memasukkan ID pelanggan yang ingin diperbarui. Setelah ID ditemukan, pengguna dapat mengubah nama pelanggan dan No HP. Setelah data berhasil diperbarui, program akan menampilkan pesan bahwa data pelanggan berhasil diupdate.
+Pada proses Update Pelanggan, program akan terlebih dahulu menampilkan data pelanggan yang ada. Selanjutnya, pengguna diminta memasukkan ID pelanggan yang ingin diperbarui. Setelah ID ditemukan, pengguna dapat mengubah nama pelanggan dan No HP. Setelah data berhasil diperbarui, program akan menampilkan pesan bahwa data pelanggan berhasil diupdate.
 
 * **Update Paket Wedding**
 
-<img width="593" height="191" alt="image" src="https://github.com/user-attachments/assets/5a60d5e8-793e-40dc-ae32-ab8738bb404d" />
+<img width="698" height="827" alt="image" src="https://github.com/user-attachments/assets/87a520c4-31db-406b-8606-c2f1554c5c6a" />
 
-
-Pada proses Update Paket Wedding, pengguna diminta memasukkan ID paket yang ingin diperbarui. Setelah paket ditemukan, pengguna dapat mengubah harga paket wedding. Setelah proses berhasil dilakukan, program akan menampilkan pesan bahwa data paket berhasil diupdate.
+Pada proses Update Paket Wedding, program akan terlebih dahulu menampilkan data paket wedding yang ada. Selanjutnya, pengguna diminta memasukkan ID paket yang ingin diperbarui. Setelah paket ditemukan, pengguna dapat mengubah harga paket wedding. Setelah proses berhasil dilakukan, program akan menampilkan pesan bahwa data paket berhasil diupdate.
 
 * **Update Pemesanan Wedding**
 
-<img width="577" height="248" alt="image" src="https://github.com/user-attachments/assets/77a7562b-80d5-499a-942d-aed56aaf90b0" />
+<img width="680" height="529" alt="image" src="https://github.com/user-attachments/assets/4544024a-9703-4dc9-9b25-b8eda5468368" />
 
-Pada proses Update Pemesanan Wedding, pengguna diminta memasukkan ID booking yang ingin diperbarui. Setelah data ditemukan, pengguna dapat mengubah venue, tanggal acara, dan jumlah pax sesuai dengan kebutuhan. Setelah data berhasil diperbarui, program akan menampilkan pesan bahwa data pemesanan berhasil diupdate.
+Pada proses Update Pemesanan Wedding, program akan terlebih dahulu menampilkan data pemesanan wedding yang ada. Selanjutnya, pengguna diminta memasukkan ID booking yang ingin diperbarui. Setelah data ditemukan, pengguna dapat mengubah venue, tanggal acara, dan jumlah pax sesuai dengan kebutuhan. Setelah data berhasil diperbarui, program akan menampilkan pesan bahwa data pemesanan berhasil diupdate.
 
 * **Update Vendor**
 
-<img width="629" height="283" alt="image" src="https://github.com/user-attachments/assets/c1047330-b90b-40ab-b684-e5d6ca2ffecb" />
+<img width="611" height="638" alt="image" src="https://github.com/user-attachments/assets/c2738c51-8d0d-4636-9b33-a045e3a6a7e0" />
 
-<img width="627" height="278" alt="image" src="https://github.com/user-attachments/assets/afdb6063-5a9e-44c3-bbc7-e7f87b14cc67" />
+<img width="614" height="637" alt="image" src="https://github.com/user-attachments/assets/c57390a5-4b6e-4017-9819-5ae751384791" />
 
-Pada proses Update Vendor, pengguna diminta untuk memilih jenis vendor yang ingin diperbarui. Apabila pengguna memilih "1", maka pengguna akan diminta untuk memasukkan ID vendor catering untuk mengubah harga per pax dari vendor tersebut. Apabila pengguna memilih "2" maka pengguna akan diminta untuk memasukkan ID dari vendor dekorasi untuk mengubah harga paket dekorasi dari vendor tersebut.
+Pada proses Update Vendor, program akan terlebih dahulu menampilkan data vendor yang ada. Selanjutnya, pengguna diminta untuk memasukkan ID vendor yang ingin diperbarui. Setelah data ditemukan, pengguna dapat mengubah harga per pax apabila data yang dipilih merupakan jenis vendor catering, serta dapat mengubah harga paket dekorasi apabila data yang dipilih merupakan vendor dekorasi. Setelah data harga berhasil diperbarui, program akan menampilkan pesan bahwa data pemesanan berhasil diupdate.
 
 * **Kembali ke Menu Utama**
 
-<img width="480" height="601" alt="image" src="https://github.com/user-attachments/assets/84058989-ffa6-41b6-8bbc-634d4b5874d8" />
+<img width="466" height="627" alt="image" src="https://github.com/user-attachments/assets/f485cd50-efa8-4e3e-976d-e031d2325875" />
+
+Apabila telah menyelesaikan proses _update_, pengguna dapat memilih menu "5" untuk keluar dari Menu Update dan kembali ke Menu Utama.
 
 ---
 
 ### 4. Menu Hapus
 
-Ketika pengguna memilih “4” pada menu utama, pengguna akan masuk ke dalam Menu Hapus. Menu ini digunakan untuk menghapus data yang sudah tersimpan pada sistem. Pengguna dapat memilih data yang ingin dihapus, yaitu data pelanggan, paket wedding, maupun pemesanan wedding.
+<img width="466" height="242" alt="image" src="https://github.com/user-attachments/assets/eba4978f-a66d-4793-b003-b182441b1b04" />
 
-<img width="479" height="278" alt="image" src="https://github.com/user-attachments/assets/3b7a9ff2-d03d-4d41-aeb3-0e3cf2794b50" />
+Ketika pengguna memilih “4” pada menu utama, pengguna akan masuk ke dalam Menu Hapus. Menu ini digunakan untuk menghapus data yang sudah tersimpan pada sistem. Pengguna dapat memilih data yang ingin dihapus, yaitu data pelanggan, paket wedding, pemesanan wedding, maupun vendor.
 
 Pada Menu Hapus, pengguna dapat memilih salah satu jenis data yang tersedia. Setelah memilih jenis data, pengguna akan diminta memasukkan ID dari data yang ingin dihapus. Program kemudian akan mencari data berdasarkan ID tersebut. Apabila data ditemukan, data akan dihapus dari daftar penyimpanan.
 
@@ -387,41 +387,42 @@ Berikut merupakan proses penghapusan pada setiap data:
 
 * **Hapus Pelanggan**
 
-<img width="471" height="166" alt="image" src="https://github.com/user-attachments/assets/e26bbf15-903a-440f-a0cd-6b9de18b74b5" />
+<img width="559" height="470" alt="image" src="https://github.com/user-attachments/assets/98e55024-a21d-42d0-a0ad-3bc3d88fb1f9" />
 
-Pada proses Hapus Pelanggan, pengguna diminta memasukkan ID pelanggan yang ingin dihapus. Program akan mencari ID tersebut pada daftar pelanggan. Apabila ID ditemukan, data pelanggan akan dihapus dan program akan menampilkan pesan bahwa data pelanggan berhasil dihapus.
+Pada proses Hapus Pelanggan, program menampilkan daftar pelanggan yang ada, kemudian pengguna diminta memasukkan ID pelanggan yang ingin dihapus. Program akan mencari ID tersebut pada daftar pelanggan. Apabila ID ditemukan, data pelanggan akan dihapus dan program akan menampilkan pesan bahwa data pelanggan berhasil dihapus.
 
 * **Hapus Paket Wedding**
 
-<img width="462" height="163" alt="image" src="https://github.com/user-attachments/assets/91557b55-d901-4f1a-8ca6-695caf75f9f7" />
+<img width="546" height="794" alt="image" src="https://github.com/user-attachments/assets/a02e5db3-fa26-412f-9eec-e1491b1e4436" />
 
-Pada proses Hapus Paket Wedding, pengguna diminta memasukkan ID paket yang ingin dihapus. Program akan mencari ID tersebut pada daftar paket wedding. Apabila ID ditemukan, data paket akan dihapus dari sistem dan program akan menampilkan pesan bahwa data paket berhasil dihapus.
+
+Pada proses Hapus Paket Wedding, program menampilkan daftar paket wedding yang ada, kemudian pengguna diminta memasukkan ID paket yang ingin dihapus. Program akan mencari ID tersebut pada daftar paket wedding. Apabila ID ditemukan, data paket akan dihapus dari sistem dan program akan menampilkan pesan bahwa data paket berhasil dihapus.
 
 * **Hapus Pemesanan Wedding**
 
-<img width="492" height="163" alt="image" src="https://github.com/user-attachments/assets/bed7fbb2-88cc-4f17-a6ce-390c9803bc08" />
+<img width="593" height="446" alt="image" src="https://github.com/user-attachments/assets/39748621-3221-4918-a6a4-5d237cd3d7af" />
 
-Pada proses Hapus Pemesanan Wedding, pengguna diminta memasukkan ID booking yang ingin dihapus. Program akan mencari ID booking tersebut pada daftar pemesanan. Apabila ditemukan, data pemesanan akan dihapus dan program akan menampilkan pesan bahwa data pemesanan berhasil dihapus.
+Pada proses Hapus Pemesanan Wedding, program menampilkan daftar pemesanan wedding yang ada, kemudian pengguna diminta memasukkan ID booking yang ingin dihapus. Program akan mencari ID booking tersebut pada daftar pemesanan. Apabila ditemukan, data pemesanan akan dihapus dan program akan menampilkan pesan bahwa data pemesanan berhasil dihapus.
 
 * **Hapus Vendor**
 
-<img width="504" height="248" alt="image" src="https://github.com/user-attachments/assets/4cee8013-e17a-44a0-bab4-4d1260d4dc13" />
+<img width="497" height="613" alt="image" src="https://github.com/user-attachments/assets/e6b0b93c-8a01-4a60-b493-e3cc5eead17c" />
 
-Pada proses Hapus Vendor, pengguna diminta untuk memilih jenis vendor yang ingin dihapus. Apabila pengguna memilih "1", maka pengguna akan diminta untuk memasukkan ID vendor catering yang ingin dihapus. Apabila pengguna memilih "2" maka pengguna akan diminta untuk memasukkan ID dari vendor dekorasi yang ingin dihapus. Apabila ditemukan, data vendor akan dihapus dan program akan menampilkan pesan bahwa data pemesanan berhasil dihapus.
+Pada proses Hapus Vendor, program menampilkan daftar vendor yang ada, kemudian pengguna diminta memasukkan ID Vendor yang ingin dihapus. Program akan mencari ID Vendor tersebut pada daftar vendor. Apabila ditemukan, data vendor akan dihapus dan program akan menampilkan pesan bahwa data vendor berhasil dihapus.
 
 
 * **Kembali ke Menu Utama**
 
-<img width="522" height="599" alt="image" src="https://github.com/user-attachments/assets/b039d9a6-bf83-4a40-8707-48032fc2040a" />
+<img width="465" height="626" alt="image" src="https://github.com/user-attachments/assets/d5cdebfc-7639-4581-b87d-df845ea4d200" />
 
-Apabila telah menyelesaikan proses _delete_, pengguna dapat memilih menu "5" untuk keluar dari Menu Update dan kembali ke Menu Utama.
+
+Apabila telah menyelesaikan proses _delete_, pengguna dapat memilih menu "5" untuk keluar dari Menu Hapus dan kembali ke Menu Utama.
 
 ---
 
 ### 5. Keluar >>>
 
-<img width="545" height="516" alt="image" src="https://github.com/user-attachments/assets/b9ca1bc7-6617-4d37-bc53-8842b47c691d" />
-
+<img width="485" height="516" alt="image" src="https://github.com/user-attachments/assets/0b3e0916-2e2d-4464-bb33-05175dd6e30c" />
 
 Apabila pengguna telah selesai melakukan pengelolaan data Wedding Organizer, pengguna dapat memilih menu “5” pada menu utama untuk mengakhiri program. Setelah pengguna memilih menu tersebut, program akan menampilkan pesan “BYEEEE!!” sebagai tanda bahwa program telah selesai dijalankan.
 
