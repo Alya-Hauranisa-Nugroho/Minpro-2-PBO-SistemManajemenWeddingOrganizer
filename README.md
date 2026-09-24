@@ -18,12 +18,12 @@ Program ini dibuat dengan menerapkan konsep Object Oriented Programming atau OOP
 
 ## Struktur MVC dan Class
 
-Program Sistem Manajemen Wedding Organizer, setiap class disusun dalam beberapa package yang menerapkan struktur MVC, yaitu _Model_, _Controller_, dan _View_. Setiap package memiliki fungsi dan class masing masing, diantaranya: terdiri dari beberapa class dengan fungsi yang berbeda, yaitu:
+Program Sistem Manajemen Wedding Organizer, setiap class disusun dalam beberapa package yang menerapkan struktur MVC, yaitu _Model_, _Controller_, dan _View_ yang saya terapkan untuk nilai tambah. Setiap package memiliki fungsi dan class masing masing, diantaranya: terdiri dari beberapa class dengan fungsi yang berbeda, yaitu:
 
 ---
 
 ### Package `com.mycompany.weddingorganizerminpro2` sebagai Main
-Package ini merupakan package utama yang berisi class WeddingOrganizerMinpro2.java sebagai titik awal program melalui method main().
+Package ini merupakan package utama yang berisi class WeddingOrganizerMinpro2.java sebagai _entry point_program melalui method main().
 
 #### 1. `WeddingOrganizerMinpro2.java`
 
@@ -107,7 +107,7 @@ Class ini merupakan subclass atau class anak yang mewarisi sifat dari dari class
 
 ### Package `controller` sebagai Controller
 
-Package ini merupakan bagian Controller dalam penerapan struktur MVC. Controller berfungsi untuk mengatur alur program dan menghubungkan antara Model dengan View. Package ini berisi class yang menangani operasi CRUD serta validasi input dari pengguna sebelum data diproses.
+Package ini merupakan bagian Controller dalam penerapan struktur MVC. Controller berfungsi untuk mengatur alur program dan menghubungkan antara Model dengan View. Package ini berisi class yang menangani operasi CRUD serta validasi input dari pengguna sebelum data diproses. Class yang terdapat dalam package ini diantaranya:
 
 #### 1. `WeddingCRUD.java`
 
@@ -132,9 +132,7 @@ Class InputValidator digunakan untuk membantu memvalidasi input yang dimasukkan 
 
 ### Package `view` sebagai View
 
-Package ini merupakan bagian View dalam penerapan struktur MVC. View berfungsi untuk menampilkan informasi kepada pengguna. Package ini mengatur tampilan menu dan pesan yang muncul saat program dijalankan.
-
-Class yang terdapat dalam package ini, di antaranya:
+Package ini merupakan bagian View dalam penerapan struktur MVC. View berfungsi untuk menampilkan informasi kepada pengguna. Package ini mengatur tampilan menu dan pesan yang muncul saat program dijalankan. Class yang terdapat dalam package ini, di antaranya:
 
 #### 1. `Menu.java`
 
@@ -154,7 +152,7 @@ Class ini digunakan untuk menampilkan pesan kepada pengguna, seperti pesan berha
 
 ---
 
-## ⭐ Penerapan Encapsulation
+## Penerapan Encapsulation
 
 Pada program ini, saya menerapkan konsep encapsulation dengan menyembunyikan atribut menggunakan access modifier private dan menyediakan getter serta setter untuk mengakses atau mengubah data tertentu.
 
@@ -167,7 +165,7 @@ Getter digunakan untuk mengambil nilai dari atribut, sedangkan setter digunakan 
 
 ---
 
-## ⭐ Penerapan Inheritance
+## Penerapan Inheritance
 
 Konsep inheritance diterapkan dengan menjadikan `Vendor` sebagai superclass dari `VendorCatering` dan `VendorDekorasi`.
 
@@ -206,7 +204,7 @@ Inheritance diterapkan pada `VendorCatering` dan `VendorDekorasi` yang merupakan
 
 ---
 
-## ⭐ Penerapan Polymorphism, sebagai nilai tambah
+## Penerapan Polymorphism, sebagai nilai tambah
 
 ---
 
@@ -428,26 +426,3 @@ Apabila telah menyelesaikan proses hapus, pengguna dapat memilih menu **“4”*
 Apabila pengguna telah selesai melakukan pengelolaan data, pengguna dapat memilih menu “5” pada menu utama untuk mengakhiri program. Setelah pengguna memilih menu tersebut, program akan menampilkan pesan “BYEEEE!!” sebagai tanda bahwa program telah selesai dijalankan.
 
 ---
-
-## Penerapan Nilai Tambah pada Program
-
-Program ini memiliki penerapan nilai tambah, yaitu sebagai berikut:
-
-### **1. Access Modifier**
-Pada program ini, saya menerapkan access modifier private pada atribut yang terdapat di dalam class data, seperti Pelanggan, PaketWedding, dan PemesananWedding. Penggunaan private membuat atribut tersebut hanya dapat diakses secara langsung dari dalam class tempat atribut tersebut didefinisikan.
-
-Contohnya terdapat pada baris kode di class Pelanggan, yaitu:
-
-<img width="361" height="118" alt="image" src="https://github.com/user-attachments/assets/752974b1-c388-4f47-bed3-eb56448a9b13" />
-
-Penggunaan access modifier pada gambar di atas menunjukkan bahwa data pada setiap object tidak dapat diakses atau diubah secara langsung dari luar class.
-
-### **2. Access Modifier**
-Pada program ini, saya menerapkan konsep encapsulation dengan menyembunyikan atribut menggunakan access modifier private dan menyediakan getter serta setter untuk mengakses atau mengubah data tertentu.
-
-Sebagai contoh, pada class Pelanggan terdapat penerapan method getter dan setter:
-
-<img width="453" height="517" alt="image" src="https://github.com/user-attachments/assets/273dd8bf-606c-4172-ba3c-2a3f09745a7a" />
-
-
-Getter digunakan untuk mengambil nilai dari atribut, sedangkan setter digunakan untuk mengubah nilai atribut. Sehingga akses terhadap data dalam object dilakukan melalui method yang telah disediakan oleh class, sehingga data tidak diakses secara langsung dari luar class.
