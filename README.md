@@ -20,7 +20,7 @@ Program ini dibuat dengan menerapkan konsep Object Oriented Programming atau OOP
 
 <img width="503" height="464" alt="image" src="https://github.com/user-attachments/assets/8c88af55-4520-4904-95b4-7084dd271c73" />
 
-Program Sistem Manajemen Wedding Organizer, setiap class disusun dalam beberapa package yang menerapkan struktur MVC, yaitu _Model_, _Controller_, dan _View_ yang saya terapkan untuk nilai tambah. Setiap package memiliki fungsi dan class masing masing, diantaranya: terdiri dari beberapa class dengan fungsi yang berbeda, yaitu:
+Program Sistem Manajemen Wedding Organizer, setiap class disusun dalam beberapa package yang menerapkan struktur MVC, yaitu _Model_, _Controller_, dan _View_ yang saya terapkan untuk nilai tambah. Setiap package memiliki fungsi dan classnya masing masing, diantaranya:
 
 ---
 
