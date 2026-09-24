@@ -148,6 +148,7 @@ Class ini digunakan untuk menampilkan menu yang terdapat pada program, baik menu
 * tampilkanMenuUpdate()
 * tampilkanMenuHapus()
 * tampilkanMenuJenisVendor()
+* tampilkanMenuTampilkanVendor()
 
 #### 2. `Pesan.java`
 
