@@ -12,15 +12,20 @@
 
 Sistem Manajemen Wedding Organizer merupakan program berbasis bahasa pemrograman Java yang digunakan untuk mengelola data pada usaha Wedding Organizer "Houry Do Wedds" secara sederhana.
 
-Program ini merupakan pengembangan dari project sebelumnya dengan menambahkan penerapan konsep Inheritance dalam pengelolaan data vendor. Program memiliki beberapa fitur CRUD (*Create, Read, Update, Delete*) untuk mengelola data pelanggan, paket wedding, pemesanan wedding, serta vendor.
+Program ini dibuat dengan menerapkan konsep Object Oriented Programming atau OOP, serta fitur fitur sederhana yang mendukung CRUD yang meliputi _Create, Read, Update, Delete_. Program ini memungkinkan pengguna untuk mengelola dan mencatat informasi seperti pada data pelanggan, paket wedding, pemesanan wedding, serta vendor.
 
 ---
 
 ## 📂 Struktur MVC dan Class
 
-Program Sistem Manajemen Wedding Organizer terdiri dari beberapa class dengan fungsi yang berbeda, yaitu:
+Program Sistem Manajemen Wedding Organizer, setiap class disusun dalam beberapa package yang menerapkan struktur MVC, yaitu _Model_, _Controller_, dan _View_. Setiap package memiliki fungsi dan class masing masing, diantaranya: terdiri dari beberapa class dengan fungsi yang berbeda, yaitu:
 
-### 1. `WeddingOrganizer.java`
+---
+
+### Package `com.mycompany.weddingorganizerminpro2` sebagai Main
+Package ini merupakan package utama yang berisi class WeddingOrganizerMinpro2.java sebagai titik awal program melalui method main().
+
+#### 1. `WeddingOrganizer.java`
 
 Class ini merupakan class utama yang menjadi *entry point* program. Class ini digunakan untuk menjalankan program dan menampilkan menu utama.
 
@@ -34,20 +39,10 @@ Menu utama pada program terdiri dari:
 
 ---
 
-### 2. `WeddingCRUD.java`
+### Package `model`
+Package ini berisi class data yang digunakan untuk menyimpan data dalam sistem Wedding Organizer. Class di dalamnya juga menerapkan encapsulation melalui atribut dan setter.
 
-Class ini merupakan class yang menangani proses utama CRUD pada program.
-
-Data yang dikelola pada class ini meliputi:
-
-* Pelanggan
-* Paket Wedding
-* Pemesanan Wedding
-* Vendor
-
-Pada class ini, `WeddingCRUD` memiliki ArrayList untuk `VendorCatering` dan `VendorDekorasi`. Sehingga, pengguna dapat memilih jenis vendor terlebih dahulu sebelum melakukan proses tambah, tampilkan, update, maupun hapus.
-
----
+Class yang ada:
 
 ### 3. `Pelanggan.java`
 
@@ -127,6 +122,21 @@ Class ini mewarisi informasi umum vendor dari superclass `Vendor` dan memiliki a
 * `hargaPaketDekorasi`
 
 Dengan demikian, `VendorDekorasi` memiliki informasi umum vendor sekaligus informasi khusus mengenai layanan dekorasi.
+
+---
+
+### 2. `WeddingCRUD.java`
+
+Class ini merupakan class yang menangani proses utama CRUD pada program.
+
+Data yang dikelola pada class ini meliputi:
+
+* Pelanggan
+* Paket Wedding
+* Pemesanan Wedding
+* Vendor
+
+Pada class ini, `WeddingCRUD` memiliki ArrayList untuk `VendorCatering` dan `VendorDekorasi`. Sehingga, pengguna dapat memilih jenis vendor terlebih dahulu sebelum melakukan proses tambah, tampilkan, update, maupun hapus.
 
 ---
 
