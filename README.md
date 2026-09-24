@@ -25,7 +25,7 @@ Program Sistem Manajemen Wedding Organizer, setiap class disusun dalam beberapa 
 ### 📦 Package `com.mycompany.weddingorganizerminpro2` sebagai Main
 Package ini merupakan package utama yang berisi class WeddingOrganizerMinpro2.java sebagai titik awal program melalui method main().
 
-#### 1. `WeddingOrganizer.java`
+#### 1. `WeddingOrganizerMinpro2.java`
 
 Class ini merupakan class utama yang menjadi *entry point* program. Class ini digunakan untuk menjalankan program dan menampilkan menu utama.
 
