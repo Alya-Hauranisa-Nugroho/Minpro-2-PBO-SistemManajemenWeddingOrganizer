@@ -8,7 +8,7 @@
 
 ---
 
-## Deskripsi Program
+## 📌 Deskripsi Program
 
 Sistem Manajemen Wedding Organizer merupakan program berbasis bahasa pemrograman Java yang digunakan untuk mengelola data pada usaha Wedding Organizer "Houry Do Wedds" secara sederhana.
 
@@ -16,7 +16,7 @@ Program ini dibuat dengan menerapkan konsep Object Oriented Programming atau OOP
 
 ---
 
-## Struktur Package, Class, dan MVC sebagai Nilai Tambah
+## 📂 Struktur Package, Class, dan MVC sebagai Nilai Tambah
 
 <img width="503" height="464" alt="image" src="https://github.com/user-attachments/assets/8c88af55-4520-4904-95b4-7084dd271c73" />
 
@@ -24,7 +24,7 @@ Program Sistem Manajemen Wedding Organizer, setiap class disusun dalam beberapa 
 
 ---
 
-### Package `com.mycompany.weddingorganizerminpro2` sebagai Main
+### 📦 Package `com.mycompany.weddingorganizerminpro2` sebagai Main
 Package ini merupakan package utama yang berisi class WeddingOrganizerMinpro2.java sebagai _entry point_program melalui method main().
 
 #### 1. `WeddingOrganizerMinpro2.java`
@@ -41,7 +41,7 @@ Menu utama pada program ini terdiri dari:
 
 ---
 
-### Package `model` sebagai Model
+### 📦 Package `model` sebagai Model
 Package ini merupakan bagian Model dalam penerapan struktur  MVC. Model berfungsi untuk menyimpan dan mengelola data yang digunakan dalam Sistem Manajemen Wedding Organizer. Setiap class di dalam package ini mewakili objek yang ada dalam sistem dan memiliki atribut serta method untuk mengelola datanya. Class yang terdapat dalam package ini, diantaranya:
 
 #### 1. `Pelanggan.java`
@@ -107,7 +107,7 @@ Class ini merupakan subclass atau class anak yang mewarisi sifat dari dari class
 
 ---
 
-### Package `controller` sebagai Controller
+### 📦 Package `controller` sebagai Controller
 
 Package ini merupakan bagian Controller dalam penerapan struktur MVC. Controller berfungsi untuk mengatur alur program dan menghubungkan antara Model dengan View. Package ini berisi class yang menangani operasi CRUD serta validasi input dari pengguna sebelum data diproses. Class yang terdapat dalam package ini diantaranya:
 
@@ -134,7 +134,7 @@ Class InputValidator digunakan untuk membantu memvalidasi input yang dimasukkan 
 
 ---
 
-### Package `view` sebagai View
+### 📦 Package `view` sebagai View
 
 Package ini merupakan bagian View dalam penerapan struktur MVC. View berfungsi untuk menampilkan informasi kepada pengguna. Package ini mengatur tampilan menu dan pesan yang muncul saat program dijalankan. Class yang terdapat dalam package ini, di antaranya:
 
@@ -157,7 +157,7 @@ Class ini digunakan untuk menampilkan pesan kepada pengguna, seperti pesan berha
 
 ---
 
-## Penerapan Encapsulation
+## ⭐ Penerapan Encapsulation
 
 <img width="476" height="129" alt="image" src="https://github.com/user-attachments/assets/20a36d1b-129c-4073-b2fb-5937629edaf9" />
 
@@ -175,7 +175,7 @@ Selain menerapkan getter, saya juga menerapkan method setter yaitu setHarga() ya
 
 ---
 
-## Penerapan Inheritance
+## ⭐ Penerapan Inheritance
 
 Pada program ini, saya menerapkan konsep inheritence dengan menjadikan class Vendor sebagai superclass atau class induk dari subclass VendorCatering dan VendorDekorasi.
 
@@ -192,7 +192,7 @@ Pada gambar di atas, diketahui bahwa konsep inheritance diterapkan pada VendorCa
 
 ---
 
-## Penerapan Polymorphism, sebagai Nilai Tambah
+## ⭐ Penerapan Polymorphism, sebagai Nilai Tambah
 
 Pada program ini saya menerapkan polymorphism melalui overriding, yaitu subclass memberikan implementasi yang berbeda pada method yang sudah dimiliki oleh superclass Vendor. Overriding digunakan karena setiap jenis vendor memiliki kebutuhan dan perilaku yang berbeda, meskipun menggunakan method yang sama.
 
@@ -211,7 +211,7 @@ Pada method tampilkanInfo(), overriding digunakan karena informasi yang perlu di
 
 ---
 
-## Dokumentasi dan Alur Program
+## 📸 Dokumentasi dan Alur Program
 
 Secara umum, alur program dimulai ketika pengguna menjalankan program selanjutnya dan akan diarahkan ke menu utama yang terdiri dari menu Tambah, Tampilkan, Update, Hapus, dan Keluar. Pengguna dapat memilih menu sesuai kebutuhan, kemudian memilih data yang ingin dikelola, yaitu data pelanggan, paket wedding, pemesanan wedding, maupun vendor. 
 
