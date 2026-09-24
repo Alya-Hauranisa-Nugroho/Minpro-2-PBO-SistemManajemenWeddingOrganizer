@@ -132,6 +132,8 @@ Class InputValidator digunakan untuk membantu memvalidasi input yang dimasukkan 
 * bacaPilihan(), yaitu method yang berfungsi untuk membaca pilihan menu dari pengguna.
 * bacaTeks(), yaitu method membaca dan memvalidasi input berupa teks.
 
+---
+
 ### Package `view` sebagai View
 
 Package ini merupakan bagian View dalam penerapan struktur MVC. View berfungsi untuk menampilkan informasi kepada pengguna. Package ini mengatur tampilan menu dan pesan yang muncul saat program dijalankan. Class yang terdapat dalam package ini, di antaranya:
