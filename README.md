@@ -176,9 +176,7 @@ Selain menerapkan getter, saya juga menerapkan method setter yaitu setHarga() ya
 
 Pada program ini, saya menerapkan konsep inheritence dengan menjadikan class Vendor sebagai superclass atau class induk dari subclass VendorCatering dan VendorDekorasi.
 
-Atribut yang bersifat umum seperti ID vendor, nama vendor, dan nomor telepon ditempatkan pada superclass Vendor. Kedua subclass kemudian mewarisi atribut dan method tersebut serta menambahkan atribut khusus sesuai dengan jenis vendornya.
-
-Penerapan inheritance bertujuan agar atribut dan method yang sama tidak perlu ditulis kembali pada masing-masing subclass, sehingga dapat digunakan untuk efisiensi. Penerapan inheritence pada class VendorCatering dan VendorDekorasi digunakan untuk mengelola data vendor berdasarkan jenisnya.
+Atribut yang bersifat umum seperti ID vendor, nama vendor, dan nomor telepon ditempatkan pada superclass Vendor. Kedua subclass kemudian mewarisi atribut dan method tersebut serta menambahkan atribut khusus sesuai dengan jenis vendornya. Penerapan inheritance bertujuan agar atribut dan method yang sama tidak perlu ditulis kembali pada masing-masing subclass, sehingga dapat digunakan untuk efisiensi. Penerapan inheritence pada class VendorCatering dan VendorDekorasi digunakan untuk mengelola data vendor berdasarkan jenisnya.
 
 Implementasi inheritance pada kode dapat dilihat pada gambar berikut:
 
