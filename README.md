@@ -8,7 +8,7 @@
 
 ---
 
-## 📌 Deskripsi Program
+## Deskripsi Program
 
 Sistem Manajemen Wedding Organizer merupakan program berbasis bahasa pemrograman Java yang digunakan untuk mengelola data pada usaha Wedding Organizer "Houry Do Wedds" secara sederhana.
 
@@ -16,13 +16,13 @@ Program ini dibuat dengan menerapkan konsep Object Oriented Programming atau OOP
 
 ---
 
-## 📂 Struktur MVC dan Class
+## Struktur MVC dan Class
 
 Program Sistem Manajemen Wedding Organizer, setiap class disusun dalam beberapa package yang menerapkan struktur MVC, yaitu _Model_, _Controller_, dan _View_. Setiap package memiliki fungsi dan class masing masing, diantaranya: terdiri dari beberapa class dengan fungsi yang berbeda, yaitu:
 
 ---
 
-### 📦 Package `com.mycompany.weddingorganizerminpro2` sebagai Main
+### Package `com.mycompany.weddingorganizerminpro2` sebagai Main
 Package ini merupakan package utama yang berisi class WeddingOrganizerMinpro2.java sebagai titik awal program melalui method main().
 
 #### 1. `WeddingOrganizerMinpro2.java`
@@ -39,7 +39,7 @@ Menu utama pada program ini terdiri dari:
 
 ---
 
-### 📦 Package `model` sebagai Model
+### Package `model` sebagai Model
 Package ini merupakan bagian Model dalam penerapan struktur  MVC. Model berfungsi untuk menyimpan dan mengelola data yang digunakan dalam Sistem Manajemen Wedding Organizer. Setiap class di dalam package ini mewakili objek yang ada dalam sistem dan memiliki atribut serta method untuk mengelola datanya. Class yang terdapat dalam package ini, diantaranya:
 
 #### 1. `Pelanggan.java`
@@ -105,7 +105,7 @@ Class ini merupakan subclass atau class anak yang mewarisi sifat dari dari class
 
 ---
 
-### 📦 Package `controller` sebagai Controller
+### Package `controller` sebagai Controller
 
 Package ini merupakan bagian Controller dalam penerapan struktur MVC. Controller berfungsi untuk mengatur alur program dan menghubungkan antara Model dengan View. Package ini berisi class yang menangani operasi CRUD serta validasi input dari pengguna sebelum data diproses.
 
@@ -130,9 +130,27 @@ Class InputValidator digunakan untuk membantu memvalidasi input yang dimasukkan 
 * bacaPilihan(), yaitu method yang berfungsi untuk membaca pilihan menu dari pengguna.
 * bacaTeks(), yaitu method membaca dan memvalidasi input berupa teks.
 
-### 📦 Package `view` View
+### Package `view` sebagai View
 
-Package ini merupakan bagian Controller dalam penerapan struktur MVC. Controller berfungsi untuk mengatur alur program dan menghubungkan antara Model dengan View. Package ini berisi class yang menangani operasi CRUD serta validasi input dari pengguna sebelum data diproses.
+Package ini merupakan bagian View dalam penerapan struktur MVC. View berfungsi untuk menampilkan informasi kepada pengguna. Package ini mengatur tampilan menu dan pesan yang muncul saat program dijalankan.
+
+Class yang terdapat dalam package ini, di antaranya:
+
+#### 1. `Menu.java`
+
+Class ini digunakan untuk menampilkan menu yang terdapat pada program, baik menu utama maupun submenu yang ada didalamnya. Class ini memiliki beberapa method yang digunakan untuk tampilan program, yaitu:
+
+* tampilkanMenuUtama()
+* tampilkanMenuTambah()
+* tampilkanMenuTampilkan()
+* tampilkanMenuUpdate()
+* tampilkanMenuHapus()
+* tampilkanMenuJenisVendor()
+
+#### 2. `Pesan.java`
+
+Class ini digunakan untuk menampilkan pesan kepada pengguna, seperti pesan berhasil, pesan kesalahan, atau informasi lainnya selama program berjalan. Pada class ini terdapat method tampilkanPesan() yang digunakan untuk menampilkan pesan dengan format "> [ pesan ] <".
+
 
 ---
 
