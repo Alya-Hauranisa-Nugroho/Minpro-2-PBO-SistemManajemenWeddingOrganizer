@@ -22,14 +22,14 @@ Program Sistem Manajemen Wedding Organizer, setiap class disusun dalam beberapa 
 
 ---
 
-### Package `com.mycompany.weddingorganizerminpro2` sebagai Main
+### 📦 Package `com.mycompany.weddingorganizerminpro2` sebagai Main
 Package ini merupakan package utama yang berisi class WeddingOrganizerMinpro2.java sebagai titik awal program melalui method main().
 
 #### 1. `WeddingOrganizer.java`
 
 Class ini merupakan class utama yang menjadi *entry point* program. Class ini digunakan untuk menjalankan program dan menampilkan menu utama.
 
-Menu utama pada program terdiri dari:
+Menu utama pada program ini terdiri dari:
 
 1. Tambah
 2. Tampilkan
@@ -39,12 +39,10 @@ Menu utama pada program terdiri dari:
 
 ---
 
-### Package `model`
-Package ini berisi class data yang digunakan untuk menyimpan data dalam sistem Wedding Organizer. Class di dalamnya juga menerapkan encapsulation melalui atribut dan setter.
+### 📦 Package `model` sebagai Model
+Package ini merupakan bagian Model dalam penerapan struktur  MVC. Model berfungsi untuk menyimpan dan mengelola data yang digunakan dalam Sistem Manajemen Wedding Organizer. Setiap class di dalam package ini mewakili objek yang ada dalam sistem dan memiliki atribut serta method untuk mengelola datanya. Class yang terdapat dalam package ini, diantaranya:
 
-Class yang ada:
-
-### 3. `Pelanggan.java`
+#### 1. `Pelanggan.java`
 
 Class ini merupakan class data yang merepresentasikan pelanggan yang melakukan pemesanan pada Wedding Organizer.
 
@@ -54,9 +52,7 @@ Atribut yang digunakan meliputi:
 * `nama`
 * `noHp`
 
----
-
-### 4. `PaketWedding.java`
+#### 2. `PaketWedding.java`
 
 Class ini merupakan class data yang merepresentasikan paket wedding yang tersedia.
 
@@ -66,9 +62,7 @@ Atribut yang digunakan meliputi:
 * `namaPaket`
 * `harga`
 
----
-
-### 5. `PemesananWedding.java`
+#### 3. `PemesananWedding.java`
 
 Class ini merupakan class data yang merepresentasikan data pemesanan wedding.
 
@@ -81,11 +75,9 @@ Atribut yang digunakan meliputi:
 * `tanggalAcara`
 * `pax`
 
----
+#### 4. `Vendor.java`
 
-### 6. `Vendor.java`
-
-Class `Vendor` merupakan **superclass** yang digunakan sebagai class induk untuk jenis-jenis vendor pada sistem.
+Class ini merupakan superclass yang digunakan sebagai class induk untuk jenis-jenis vendor yang diolah pada Wedding Organizer.
 
 Class ini menyimpan atribut umum yang dimiliki oleh setiap vendor, yaitu:
 
@@ -93,41 +85,33 @@ Class ini menyimpan atribut umum yang dimiliki oleh setiap vendor, yaitu:
 * `namaVendor`
 * `noTelepon`
 
-Atribut dan method umum tersebut kemudian dapat digunakan oleh subclass yang mewarisi class `Vendor`.
+Atribut dan method umum yang terdapat dalam class ini kemudian akan digunakan oleh subclass yang mewarisi class `Vendor`.
 
----
+#### 5. `VendorCatering.java`
 
-### 7. `VendorCatering.java`
-
-Class `VendorCatering` merupakan **subclass** dari class `Vendor`.
-
-Class ini mewarisi informasi umum vendor dari superclass `Vendor` dan memiliki atribut tambahan yang khusus digunakan untuk vendor catering, yaitu:
+Class ini merupakan subclass atau class anak yang mewarisi sifat dari dari class `Vendor`. Class ini mewarisi informasi umum vendor dari superclass dan memiliki atribut tambahan yang khusus digunakan untuk vendor catering, yaitu:
 
 * `jenisMasakan`
 * `sistemPenyajian`
 * `hargaPerPax`
 
-Dengan demikian, `VendorCatering` memiliki informasi umum vendor sekaligus informasi khusus mengenai layanan catering.
+#### 6. `VendorDekorasi.java`
 
----
-
-### 8. `VendorDekorasi.java`
-
-Class `VendorDekorasi` merupakan **subclass** dari class `Vendor`.
-
-Class ini mewarisi informasi umum vendor dari superclass `Vendor` dan memiliki atribut tambahan yang digunakan untuk vendor dekorasi, yaitu:
+Class ini merupakan subclass atau class anak yang mewarisi sifat dari dari class `Vendor`. Class ini mewarisi informasi umum vendor dari superclass dan memiliki atribut tambahan yang khusus digunakan untuk vendor dekorasi, yaitu:
 
 * `temaDekorasi`
 * `jenisDekorasi`
 * `hargaPaketDekorasi`
 
-Dengan demikian, `VendorDekorasi` memiliki informasi umum vendor sekaligus informasi khusus mengenai layanan dekorasi.
-
 ---
 
-### 2. `WeddingCRUD.java`
+### 📦 Package `controller` sebagai Controller
 
-Class ini merupakan class yang menangani proses utama CRUD pada program.
+Package ini merupakan bagian Controller dalam penerapan struktur MVC. Controller berfungsi untuk mengatur alur program dan menghubungkan antara Model dengan View. Package ini berisi class yang menangani operasi CRUD serta validasi input dari pengguna sebelum data diproses.
+
+#### 1. `WeddingCRUD.java`
+
+Class ini merupakan class yang menangani seluruh proses utama CRUD pada program.
 
 Data yang dikelola pada class ini meliputi:
 
@@ -136,15 +120,19 @@ Data yang dikelola pada class ini meliputi:
 * Pemesanan Wedding
 * Vendor
 
-Pada class ini, `WeddingCRUD` memiliki ArrayList untuk `VendorCatering` dan `VendorDekorasi`. Sehingga, pengguna dapat memilih jenis vendor terlebih dahulu sebelum melakukan proses tambah, tampilkan, update, maupun hapus.
+Pada class ini, ditambahkan juga ArrayList dan data _dummy_ untuk setiap data yang dikelola pada Sistem Manajemen Wedding Organizer.
 
----
+#### 2. `InputValidator.java`
 
-### 9. `InputValidator.java`
+Class InputValidator digunakan untuk membantu memvalidasi input yang dimasukkan oleh pengguna agar sesuai dengan format yang dibutuhkan program. Class ini memiliki beberapa method, yaitu:
 
-Class `InputValidator` digunakan untuk membantu melakukan validasi input yang dimasukkan oleh pengguna.
+* bacaInt(), yaitu method yang berfungsi membaca dan memvalidasi input berupa angka.
+* bacaPilihan(), yaitu method yang berfungsi untuk membaca pilihan menu dari pengguna.
+* bacaTeks(), yaitu method membaca dan memvalidasi input berupa teks.
 
-Class ini digunakan pada beberapa bagian program, seperti input harga paket, harga vendor, dan jumlah pax.
+### 📦 Package `view` View
+
+Package ini merupakan bagian Controller dalam penerapan struktur MVC. Controller berfungsi untuk mengatur alur program dan menghubungkan antara Model dengan View. Package ini berisi class yang menangani operasi CRUD serta validasi input dari pengguna sebelum data diproses.
 
 ---
 
