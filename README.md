@@ -193,11 +193,26 @@ Pada gambar di atas, diketahui bahwa konsep inheritance diterapkan pada VendorCa
 
 ## Penerapan Polymorphism, sebagai Nilai Tambah
 
+Pada program ini saya menerapkan polymorphism melalui overriding, yaitu subclass memberikan implementasi yang berbeda pada method yang sudah dimiliki oleh superclass Vendor. Overriding digunakan karena setiap jenis vendor memiliki kebutuhan dan perilaku yang berbeda, meskipun menggunakan method yang sama.
+
+Implementasi polymorphism pada kode dapat dilihat pada gambar berikut:
+
+<img width="857" height="643" alt="image" src="https://github.com/user-attachments/assets/b914ab33-15d9-459b-8d9d-ea94396ec014" />
+
+
+<img width="970" height="623" alt="image" src="https://github.com/user-attachments/assets/9bdbcf59-5a0e-4969-9340-2811c8a004a3" />
+
+Pada method getJenisVendor(), overriding diperlukan karena setiap subclass memiliki jenis vendor yang berbeda. VendorCatering mengembalikan Catering, sedangkan VendorDekorasi mengembalikan Dekorasi.
+
+Pada method getHarga() dan setHarga(), overriding digunakan karena setiap jenis vendor memiliki atribut harga yang berbeda. VendorCatering menggunakan hargaPerPax, sedangkan VendorDekorasi menggunakan hargaPaketDekorasi. Dengan begitu, method yang sama dapat mengambil dan mengubah harga sesuai dengan jenis vendor.
+
+Pada method tampilkanInfo(), overriding digunakan karena informasi yang perlu ditampilkan pada setiap jenis vendor berbeda. VendorCatering menampilkan informasi seperti jenis masakan dan sistem penyajian, sedangkan VendorDekorasi menampilkan tema dan jenis dekorasi. Method super.tampilkanInfo() tetap digunakan untuk menampilkan informasi umum yang berasal dari superclass Vendor.
+
 ---
 
 ## 📸 Dokumentasi dan Alur Program
 
-Secara umum, alur program dimulai ketika pengguna menjalankan program selanjutnya dan akan diarahkan ke menu utama yang terdiri dari menu Tambah, Tampilkan, Update, Hapus, dan Keluar. Pengguna dapat memilih menu sesuai kebutuhan, kemudian memilih data yang ingin dikelola, yaitu data pelanggan, paket wedding, atau pemesanan wedding. 
+Secara umum, alur program dimulai ketika pengguna menjalankan program selanjutnya dan akan diarahkan ke menu utama yang terdiri dari menu Tambah, Tampilkan, Update, Hapus, dan Keluar. Pengguna dapat memilih menu sesuai kebutuhan, kemudian memilih data yang ingin dikelola, yaitu data pelanggan, paket wedding, pemesanan wedding, maupun vendor. 
 
 Apabila pengguna telah menyelesaikan proses CRUD yang dipilih dan memilih menu “Kembali ke Menu Utama”, program akan kembali ke menu utama sehingga pengguna dapat melakukan proses lainnya. Program akan terus berjalan selama pengguna belum memilih menu Keluar.
 
