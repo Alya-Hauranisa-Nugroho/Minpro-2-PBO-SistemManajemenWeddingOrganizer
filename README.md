@@ -227,7 +227,7 @@ Pada gambar di atas, saya menampilkan menu utama dari program yang telah diranca
 
 ---
 
-#### 1. Menu Tambah
+### 1. Menu Tambah
 
 <img width="480" height="276" alt="image" src="https://github.com/user-attachments/assets/e853f97f-933b-4c7f-8ce2-3ea249087249" />
 
@@ -289,7 +289,7 @@ Apabila telah menyelesaikan proses tambah, pengguna dapat memilih menu "5" untuk
 
 ---
 
-#### 2. Menu Tampilkan
+### 2. Menu Tampilkan
 
 <img width="494" height="277" alt="image" src="https://github.com/user-attachments/assets/8465ea91-3a02-4785-b3bc-7a4d0b4752a2" />
 
@@ -326,7 +326,7 @@ Pengguna dapat memilih menu "5" untuk keluar dari menu tampilkan dan kembali ke 
 
 ---
 
-### **3. Menu Update**
+### 3. Menu Update
 
 Ketika pengguna memilih “3” pada menu utama, pengguna akan masuk ke dalam Menu Update. Menu ini digunakan untuk mengubah data yang sudah tersimpan pada program. Pengguna dapat memilih data yang ingin diperbarui, yaitu data pelanggan, paket wedding, maupun pemesanan wedding.
 
@@ -374,7 +374,7 @@ Apabila telah menyelesaikan proses update, pengguna dapat memilih menu “5” u
 
 ---
 
-### **4. Menu Hapus**
+### 4. Menu Hapus
 
 Ketika pengguna memilih “4” pada menu utama, pengguna akan masuk ke dalam Menu Hapus. Menu ini digunakan untuk menghapus data yang sudah tersimpan pada sistem. Pengguna dapat memilih data yang ingin dihapus, yaitu data pelanggan, paket wedding, maupun pemesanan wedding.
 
@@ -420,7 +420,7 @@ Apabila telah menyelesaikan proses hapus, pengguna dapat memilih menu **“4”*
 
 ---
 
-5. **Keluar >>>**
+### 5. Keluar >>>
 
 <img width="545" height="516" alt="image" src="https://github.com/user-attachments/assets/b9ca1bc7-6617-4d37-bc53-8842b47c691d" />
 
