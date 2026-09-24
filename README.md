@@ -270,7 +270,7 @@ Jika memilih vendor dekorasi, pengguna memasukkan data umum vendor serta data kh
 
 <img width="474" height="630" alt="image" src="https://github.com/user-attachments/assets/771162d4-f782-4354-a346-5e72c7cef961" />
 
-Apabila telah menyelesaikan proses tambah, pengguna dapat memilih menu "5" untuk keluar dari menu tambah dan kembali ke menu utama.
+Apabila telah menyelesaikan proses _create_, pengguna dapat memilih menu "5" untuk keluar dari Menu Tambah dan kembali ke Menu Utama.
 
 ---
 
@@ -323,8 +323,7 @@ Pada menu Tampilkan Vendor, pengguna diminta untuk memilih vendor apa yang ingin
 
 <img width="470" height="628" alt="image" src="https://github.com/user-attachments/assets/92d959b4-05c8-4713-b8ec-6f5515fffb3c" />
 
-
-Pengguna dapat memilih menu "5" untuk keluar dari menu tampilkan dan kembali ke menu utama.
+Apabila telah menyelesaikan proses _read_, pengguna dapat memilih menu "5" untuk keluar dari Menu Tampilkan dan kembali ke Menu Utama.
 
 ---
 
@@ -334,7 +333,7 @@ Ketika pengguna memilih “3” pada menu utama, pengguna akan masuk ke dalam Me
 
 <img width="474" height="272" alt="image" src="https://github.com/user-attachments/assets/e5ee7df4-c3f9-4954-bc1b-7c54b1cf398f" />
 
-Pada Menu Update, pengguna dapat memilih salah satu dari tiga jenis data yang tersedia untuk diperbarui. Setelah memilih jenis data, pengguna akan diminta memasukkan ID dari data yang ingin diubah. Program kemudian akan mencari data berdasarkan ID tersebut. Apabila data ditemukan, pengguna dapat memasukkan informasi baru sesuai dengan atribut yang dapat diperbarui.
+Pada Menu Update, pengguna dapat memilih salah satu dari 4 jenis data yang tersedia untuk diperbarui. Setelah memilih jenis data, pengguna akan diminta memasukkan ID dari data yang ingin diubah. Program kemudian akan mencari data berdasarkan ID tersebut. Apabila data ditemukan, pengguna dapat memasukkan informasi baru sesuai dengan atribut yang dapat diperbarui.
 
 ---
 
@@ -372,8 +371,6 @@ Pada proses Update Vendor, pengguna diminta untuk memilih jenis vendor yang ingi
 
 <img width="480" height="601" alt="image" src="https://github.com/user-attachments/assets/84058989-ffa6-41b6-8bbc-634d4b5874d8" />
 
-Apabila telah menyelesaikan proses update, pengguna dapat memilih menu “5” untuk keluar dari Menu Update dan kembali ke menu utama.
-
 ---
 
 ### 4. Menu Hapus
@@ -391,7 +388,6 @@ Berikut merupakan proses penghapusan pada setiap data:
 * **Hapus Pelanggan**
 
 <img width="471" height="166" alt="image" src="https://github.com/user-attachments/assets/e26bbf15-903a-440f-a0cd-6b9de18b74b5" />
-
 
 Pada proses Hapus Pelanggan, pengguna diminta memasukkan ID pelanggan yang ingin dihapus. Program akan mencari ID tersebut pada daftar pelanggan. Apabila ID ditemukan, data pelanggan akan dihapus dan program akan menampilkan pesan bahwa data pelanggan berhasil dihapus.
 
@@ -418,7 +414,7 @@ Pada proses Hapus Vendor, pengguna diminta untuk memilih jenis vendor yang ingin
 
 <img width="522" height="599" alt="image" src="https://github.com/user-attachments/assets/b039d9a6-bf83-4a40-8707-48032fc2040a" />
 
-Apabila telah menyelesaikan proses hapus, pengguna dapat memilih menu **“4”** untuk keluar dari Menu Hapus dan kembali ke menu utama.
+Apabila telah menyelesaikan proses _delete_, pengguna dapat memilih menu "5" untuk keluar dari Menu Update dan kembali ke Menu Utama.
 
 ---
 
@@ -427,6 +423,6 @@ Apabila telah menyelesaikan proses hapus, pengguna dapat memilih menu **“4”*
 <img width="545" height="516" alt="image" src="https://github.com/user-attachments/assets/b9ca1bc7-6617-4d37-bc53-8842b47c691d" />
 
 
-Apabila pengguna telah selesai melakukan pengelolaan data, pengguna dapat memilih menu “5” pada menu utama untuk mengakhiri program. Setelah pengguna memilih menu tersebut, program akan menampilkan pesan “BYEEEE!!” sebagai tanda bahwa program telah selesai dijalankan.
+Apabila pengguna telah selesai melakukan pengelolaan data Wedding Organizer, pengguna dapat memilih menu “5” pada menu utama untuk mengakhiri program. Setelah pengguna memilih menu tersebut, program akan menampilkan pesan “BYEEEE!!” sebagai tanda bahwa program telah selesai dijalankan.
 
 ---
